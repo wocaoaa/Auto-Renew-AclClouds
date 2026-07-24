@@ -18,7 +18,7 @@ TG_CHAT_ID = os.getenv('TG_CHAT_ID') or ""
 TG_BOT_TOKEN = os.getenv('TG_BOT_TOKEN') or ""
 
 LOGIN_PATH = '/auth/login'
-BASE_URL = 'https://aclclouds.com'
+BASE_URL = 'https://aclclouds.com/dashboard'
 PROJECTS_URL = f'{BASE_URL}/dashboard/projects'
 
 def beijing_time_str():
